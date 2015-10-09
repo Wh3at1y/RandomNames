@@ -11,6 +11,12 @@ public class ArrayListPopUp
 			return answer;
 		}
 		
+		public int userConfirm(String userConf)
+		{
+			int answer = 0;
+				answer = JOptionPane.showConfirmDialog(null, userConf);
+			return answer;
+		}
 		
 		public void showSomething(String input)
 		{
@@ -31,5 +37,11 @@ public class ArrayListPopUp
 			return answer;
 		}
 		
+		public String toString()
+		{
+			String familyMembers = "So you have a total of ";
+			
+			return familyMembers;
+		}
 		
 	}
